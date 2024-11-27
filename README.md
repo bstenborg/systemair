@@ -22,7 +22,7 @@ Platform | Description
 
 ### Using HACS
 
-1. Open HACS and go to `custom integrations`. Enter the URL `https://github.com/tesharp/systemair`, choose type Integration and click Add. 
+1. Open HACS and go to "Custom integrations". Enter the URL `https://github.com/tesharp/systemair`, choose type Integration and click Add. 
 2. Restart Home Assistant
 3. Go to settings and add new integration. You will find Systemair in the list of available integrations. 
 
