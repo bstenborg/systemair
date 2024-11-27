@@ -64,6 +64,9 @@
             "extract_air_temperature": {
                 "name": "Extract air temperature"
             },
+            "supply_air_temperature": {
+                "name": "Supply air temperature"
+            },
             "overheat_temperature": {
                 "name": "Overheat Temperature sensor"
             },

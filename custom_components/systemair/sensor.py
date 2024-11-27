@@ -55,6 +55,13 @@ ENTITY_DESCRIPTIONS = (
         registry=parameter_map["REG_SENSOR_PDM_EAT_VALUE"],
     ),
     SystemairSensorEntityDescription(
+        key="supply_air_temperature",
+        translation_key="supply_air_temperature",
+        device_class=SensorDeviceClass.TEMPERATURE,
+        native_unit_of_measurement=UnitOfTemperature.CELSIUS,
+        registry=parameter_map["REG_SENSOR_PDM_SAT_VALUE"],
+    ),
+    SystemairSensorEntityDescription(
         key="overheat_temperature",
         translation_key="overheat_temperature",
         device_class=SensorDeviceClass.TEMPERATURE,
