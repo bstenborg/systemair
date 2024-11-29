@@ -69,6 +69,14 @@ ENTITY_DESCRIPTIONS = (
         registry=parameter_map["REG_SENSOR_OHT"],
     ),
     SystemairSensorEntityDescription(
+        key="extract_air_relative_humidity",
+        translation_key="extract_air_relative_humidity",
+        state_class=SensorStateClass.MEASUREMENT,
+        native_unit_of_measurement=PERCENTAGE,
+        registry=parameter_map["REG_SENSOR_RHS_PDM"],
+    ),
+    REG_SENSOR_RHS_PDM
+    SystemairSensorEntityDescription(
         key="meter_saf_rpm",
         translation_key="meter_saf_rpm",
         state_class=SensorStateClass.MEASUREMENT,
