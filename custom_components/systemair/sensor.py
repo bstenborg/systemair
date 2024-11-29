@@ -75,7 +75,6 @@ ENTITY_DESCRIPTIONS = (
         native_unit_of_measurement=PERCENTAGE,
         registry=parameter_map["REG_SENSOR_RHS_PDM"],
     ),
-    REG_SENSOR_RHS_PDM
     SystemairSensorEntityDescription(
         key="meter_saf_rpm",
         translation_key="meter_saf_rpm",
